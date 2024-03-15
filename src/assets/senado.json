@@ -1,0 +1,589 @@
+{
+	"members": [
+		{
+			"ID": "519",
+			"BLOQUE": "FRENTE NACIONAL Y POPULAR",
+			"APELLIDO": "ANDRADA",
+			"NOMBRE": "GUILLERMO EDUARDO",
+			"PROVINCIA": "CATAMARCA",
+			"PARTIDO": "FRENTE DE TODOS",
+			"EMAIL": "guillermo.andrada@senado.gob.ar",
+			"IMG": "/faces/519.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/negrojoao"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "532",
+			"BLOQUE": "FRENTE NACIONAL Y POPULAR",
+			"APELLIDO": "BENSUSÁN",
+			"NOMBRE": "DANIEL PABLO",
+			"PROVINCIA": "LA PAMPA",
+			"PARTIDO": "FRENTE DE TODOS",
+			"EMAIL": "daniel.bensusan@senado.gob.ar",
+			"IMG": "/faces/532.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/palibensusan?s=11"],
+				["Facebook", "https://www.facebook.com/dpbensusan"],
+				["Instagram", "https://www.instagram.com/palibensusan/"],
+				["Youtube", "https://youtube.com/channel/UCVGEIDtt26DtcpADWXGLkDg"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "511",
+			"BLOQUE": "UNIÓN CÍVICA RADICAL",
+			"APELLIDO": "BLANCO",
+			"NOMBRE": "PABLO DANIEL",
+			"PROVINCIA": "TIERRA DEL FUEGO",
+			"PARTIDO": "JUNTOS POR EL CAMBIO",
+			"EMAIL": "pablo.blanco@senado.gob.ar",
+			"IMG": "/faces/511.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/blancopabloda"],
+				["Facebook", "https://www.facebook.com/pablodanielblancosenador"],
+				["Instagram", "https://www.instagram.com/blancopablodaniel"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "567",
+			"BLOQUE": "POR SANTA CRUZ",
+			"APELLIDO": "CARAMBIA",
+			"NOMBRE": "JOSÉ MARÍA",
+			"PROVINCIA": "SANTA CRUZ",
+			"PARTIDO": "ALIANZA POR SANTA CRUZ",
+			"EMAIL": "jose.carambia@senado.gob.ar",
+			"IMG": "/faces/567.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/josemacarambia"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "398",
+			"BLOQUE": "FRENTE NACIONAL Y POPULAR",
+			"APELLIDO": "CORPACCI",
+			"NOMBRE": "LUCIA BENIGNA",
+			"PROVINCIA": "CATAMARCA",
+			"PARTIDO": "FRENTE DE TODOS",
+			"EMAIL": "lucia.corpacci@senado.gob.ar",
+			"IMG": "/faces/398.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/LuciaCorpacci"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "440",
+			"BLOQUE": "COMUNIDAD NEUQUÉN",
+			"APELLIDO": "CREXELL",
+			"NOMBRE": "CARMEN LUCILA",
+			"PROVINCIA": "NEUQUÉN",
+			"PARTIDO": "JUNTOS POR EL CAMBIO",
+			"EMAIL": "lucila.crexell@senado.gob.ar",
+			"IMG": "/faces/440.gif",
+			"SOCIAL_MEDIA": [["Twitter", "https://twitter.com/LucilaCrexell"]],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "545",
+			"BLOQUE": "UNIDAD CIUDADANA",
+			"APELLIDO": "DE PEDRO",
+			"NOMBRE": "EDUARDO ENRIQUE",
+			"PROVINCIA": "BUENOS AIRES",
+			"PARTIDO": "ALIANZA UNIÓN POR LA PATRIA",
+			"EMAIL": "eduardo.depedro@senado.gob.ar",
+			"IMG": "/faces/545.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/wadodecorrido"],
+				["Facebook", "https://www.facebook.com/wadodecorrido"],
+				["Instagram", "https://www.instagram.com/wadodecorrido"],
+				["Youtube", "https://www.youtube.com/wadodecorrido"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "517",
+			"BLOQUE": "UNIDAD CIUDADANA",
+			"APELLIDO": "DI TULLIO",
+			"NOMBRE": "JULIANA",
+			"PROVINCIA": "BUENOS AIRES",
+			"PARTIDO": "ALIANZA UNIÓN POR LA PATRIA",
+			"EMAIL": "juliana.ditullio@senado.gob.ar",
+			"IMG": "/faces/517.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/ditulliojuli"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "505",
+			"BLOQUE": "UNIDAD CIUDADANA",
+			"APELLIDO": "DOÑATE",
+			"NOMBRE": "CLAUDIO MARTÍN",
+			"PROVINCIA": "RÍO NEGRO",
+			"PARTIDO": "FRENTE DE TODOS",
+			"EMAIL": "martin.donate@senado.gob.ar",
+			"IMG": "/faces/505.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/martindonate"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "512",
+			"BLOQUE": "UNIDAD CIUDADANA",
+			"APELLIDO": "DURÉ",
+			"NOMBRE": "MARÍA EUGENIA",
+			"PROVINCIA": "TIERRA DEL FUEGO",
+			"PARTIDO": "FRENTE DE TODOS",
+			"EMAIL": "maria.dure@senado.gob.ar",
+			"IMG": "/faces/512.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter","https://twitter.com/EugeniaDureTDF"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "461",
+			"BLOQUE": "UNIDAD FEDERAL",
+			"APELLIDO": "ESPÍNOLA",
+			"NOMBRE": "CARLOS MAURICIO",
+			"PROVINCIA": "CORRIENTES",
+			"PARTIDO": "FRENTE TODOS",
+			"EMAIL": "carlos.espinola@senado.gob.ar",
+			"IMG": "/faces/461.gif",
+			"SOCIAL_MEDIA": [["Twitter", "https://twitter.com/espinolacamau"]],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "468",
+			"BLOQUE": "UNIDAD CIUDADANA",
+			"APELLIDO": "FERNÁNDEZ SAGASTI",
+			"NOMBRE": "ANABEL",
+			"PROVINCIA": "MENDOZA",
+			"PARTIDO": "FRENTE DE TODOS",
+			"EMAIL": "anabel.fernandezsagasti@senado.gob.ar",
+			"IMG": "/faces/468.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/anabelfsagasti"],
+				["Facebook", "https://www.facebook.com/anabelfsagasti"],
+				["Instagram", "https://www.instagram.com/anabelfsagasti"],
+				["Youtube", "https://www.youtube.com/anabelfsagasti"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "568",
+			"BLOQUE": "POR SANTA CRUZ",
+			"APELLIDO": "GADANO",
+			"NOMBRE": "NATALIA ELENA",
+			"PROVINCIA": "SANTA CRUZ",
+			"PARTIDO": "ALIANZA POR SANTA CRUZ",
+			"EMAIL": "natalia.gadano@senado.gob.ar",
+			"IMG": "/faces/568.gif",
+			"SOCIAL_MEDIA": [
+				["Instagram", "https://www.instagram.com/nataliagadano"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "441",
+			"BLOQUE": "UNIDAD CIUDADANA",
+			"APELLIDO": "GARCÍA LARRABURU",
+			"NOMBRE": "SILVINA MARCELA",
+			"PROVINCIA": "RÍO NEGRO",
+			"PARTIDO": "FRENTE DE TODOS",
+			"EMAIL": "silvina.garcialarraburu@senado.gob.ar",
+			"IMG": "/faces/441.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/"],
+				[
+					"Facebook",
+					"https://www.facebook.com/Silvina-García-Larraburu-147895613528/"
+				],
+				["Instagram", "https://instagram.com/garcialarraburu/"],
+				["Youtube", "https://youtube.com/channel/UCfsYLk17ffJTNto2_ScC7jQ"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "507",
+			"BLOQUE": "UNIDAD CIUDADANA",
+			"APELLIDO": "GIMÉNEZ",
+			"NOMBRE": "NORA DEL VALLE",
+			"PROVINCIA": "SALTA",
+			"PARTIDO": "FRENTE DE TODOS",
+			"EMAIL": "nora.gimenez@senado.gob.ar",
+			"IMG": "/faces/507.gif",
+			"SOCIAL_MEDIA": [
+				["Instagram", "https://www.instagram.com/noragiok"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "562",
+			"BLOQUE": "UNIDAD CIUDADANA",
+			"APELLIDO": "GIMÉNEZ NAVARRO",
+			"NOMBRE": "MARÍA CELESTE",
+			"PROVINCIA": "SAN JUAN",
+			"PARTIDO": "ALIANZA UNIÓN POR LA PATRIA",
+			"EMAIL": "mcgimeneznavarro@senado.gob.ar",
+			"IMG": "/faces/562.gif",
+			"SOCIAL_MEDIA": [
+				["Instagram", "https://www.instagram.com/celestegimeneznavarro"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "477",
+			"BLOQUE": "FRENTE NACIONAL Y POPULAR",
+			"APELLIDO": "GONZÁLEZ",
+			"NOMBRE": "MARÍA TERESA MARGARITA",
+			"PROVINCIA": "FORMOSA",
+			"PARTIDO": "ALIANZA UNIÓN POR LA PATRIA",
+			"EMAIL": "maria.gonzalez@senado.gob.ar",
+			"IMG": "/faces/477.gif",
+			"SOCIAL_MEDIA": [],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "366",
+			"BLOQUE": "UNIDAD CIUDADANA",
+			"APELLIDO": "KIRCHNER",
+			"NOMBRE": "ALICIA MARGARITA ANTONIA",
+			"PROVINCIA": "SANTA CRUZ",
+			"PARTIDO": "ALIANZA UNIÓN POR LA PATRIA",
+			"EMAIL": "alicia.kirchner@senado.gob.ar",
+			"IMG": "/faces/366.gif",
+			"SOCIAL_MEDIA": [],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "502",
+			"BLOQUE": "UNIDAD FEDERAL",
+			"APELLIDO": "KUEIDER",
+			"NOMBRE": "EDGARDO DARÍO",
+			"PROVINCIA": "ENTRE RÍOS",
+			"PARTIDO": "FRENTE TODOS",
+			"EMAIL": "kueider@senado.gob.ar",
+			"IMG": "/faces/502.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/EdgardoKueider"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "508",
+			"BLOQUE": "UNIDAD CIUDADANA",
+			"APELLIDO": "LEAVY",
+			"NOMBRE": "SERGIO NAPOLEÓN",
+			"PROVINCIA": "SALTA",
+			"PARTIDO": "FRENTE DE TODOS",
+			"EMAIL": "sergio.leavy@senado.gob.ar",
+			"IMG": "/faces/508.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/ElOsoLeavy"],
+				["Facebook", "https://www.facebook.com/ElOsoLeavy"],
+				["Instagram", "https://www.instagram.com/osoleavy"],
+				["Youtube", "https://www.youtube.com/c/SergioOsoLeavy"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "509",
+			"BLOQUE": "FRENTE NACIONAL Y POPULAR",
+			"APELLIDO": "LEDESMA ABDALA DE ZAMORA",
+			"NOMBRE": "CLAUDIA",
+			"PROVINCIA": "SANTIAGO DEL ESTERO",
+			"PARTIDO": "FRENTE CÍVICO POR SANTIAGO",
+			"EMAIL": "claudia.ledesma@senado.gob.ar",
+			"IMG": "/faces/509.gif",
+			"SOCIAL_MEDIA": [
+				["Instagram", "https://www.instagram.com/claudiazamorasde"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "538",
+			"BLOQUE": "FRENTE NACIONAL Y POPULAR",
+			"APELLIDO": "LEWANDOWSKI",
+			"NOMBRE": "MARCELO NESTOR",
+			"PROVINCIA": "SANTA FE",
+			"PARTIDO": "FRENTE DE TODOS",
+			"EMAIL": "marcelo.lewandowski@senado.gob.ar",
+			"IMG": "/faces/538.gif",
+			"SOCIAL_MEDIA": [
+				["Instagram", "https://www.instagram.com/marcelewan/"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "529",
+			"BLOQUE": "UNIDAD CIUDADANA",
+			"APELLIDO": "LINARES",
+			"NOMBRE": "CARLOS ALBERTO",
+			"PROVINCIA": "CHUBUT",
+			"PARTIDO": "FRENTE DE TODOS",
+			"EMAIL": "carlos.linares@senado.gob.ar",
+			"IMG": "/faces/529.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/LinaresCarlosCR"],
+				["Facebook", "https://www.facebook.com/LinaresCarlosCR"],
+				["Instagram", "https://www.instagram.com/carloslinarescr/"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "574",
+			"BLOQUE": "UNIDAD CIUDADANA",
+			"APELLIDO": "LÓPEZ",
+			"NOMBRE": "CÁNDIDA CRISTINA",
+			"PROVINCIA": "TIERRA DEL FUEGO",
+			"PARTIDO": "ALIANZA FRENTE DE TODOS",
+			"EMAIL": "cristina.lopez@senado.gob.ar",
+			"IMG": "/faces/574.gif",
+			"SOCIAL_MEDIA": [],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "555",
+			"BLOQUE": "FRENTE NACIONAL Y POPULAR",
+			"APELLIDO": "LÓPEZ",
+			"NOMBRE": "MARÍA FLORENCIA",
+			"PROVINCIA": "LA RIOJA",
+			"PARTIDO": "ALIANZA UNIÓN POR LA PATRIA",
+			"EMAIL": "florencia.lopez@senado.gob.ar",
+			"IMG": "/faces/555.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/Florelop"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "497",
+			"BLOQUE": "UNIÓN CÍVICA RADICAL",
+			"APELLIDO": "LOUSTEAU",
+			"NOMBRE": "MARTÍN",
+			"PROVINCIA": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+			"PARTIDO": "JUNTOS POR EL CAMBIO",
+			"EMAIL": "martin.lousteau@senado.gob.ar",
+			"IMG": "/faces/497.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/gugalusto"],
+				["Facebook", "https://www.facebook.com/gugalusto"],
+				["Instagram", "https://www.instagram.com/gugalusto"],
+				["Youtube", "https://youtube.com/martinlousteau"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "576",
+			"BLOQUE": "FRENTE NACIONAL Y POPULAR",
+			"APELLIDO": "MANZUR",
+			"NOMBRE": "JUAN LUIS",
+			"PROVINCIA": "TUCUMÁN",
+			"PARTIDO": "ALIANZA FRENTE DE TODOS",
+			"EMAIL": "juan.manzur@senado.gob.ar",
+			"IMG": "/faces/576.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/JuanManzurOK"],
+				["Facebook", "https://www.facebook.com/JuanManzurOficial/"],
+				["Instagram", "https://www.instagram.com/juanluismanzur/"],
+				["Youtube", "https://www.youtube.com/@JuanManzurOK"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "540",
+			"BLOQUE": "FRENTE NACIONAL Y POPULAR",
+			"APELLIDO": "MENDOZA",
+			"NOMBRE": "SANDRA MARIELA",
+			"PROVINCIA": "TUCUMÁN",
+			"PARTIDO": "FRENTE DE TODOS",
+			"EMAIL": "sandra.mendoza@senado.gob.ar",
+			"IMG": "/faces/540.gif",
+			"SOCIAL_MEDIA": [
+				["Instagram", "https://www.instagram.com/sandramendozasn/"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "554",
+			"BLOQUE": "UNIDAD CIUDADANA",
+			"APELLIDO": "MOISES",
+			"NOMBRE": "MARÍA CAROLINA",
+			"PROVINCIA": "JUJUY",
+			"PARTIDO": "ALIANZA UNIÓN POR LA PATRIA",
+			"EMAIL": "maria.moises@senado.gob.ar",
+			"IMG": "/faces/554.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/CarolinaMoises"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "446",
+			"BLOQUE": "FRENTE NACIONAL Y POPULAR",
+			"APELLIDO": "MONTENEGRO",
+			"NOMBRE": "GERARDO ANTENOR",
+			"PROVINCIA": "SANTIAGO DEL ESTERO",
+			"PARTIDO": "FRENTE DE TODOS",
+			"EMAIL": "gerardo.montenegro@senado.gob.ar",
+			"IMG": "/faces/446.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/GerardoSenador"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "510",
+			"BLOQUE": "FRENTE NACIONAL Y POPULAR",
+			"APELLIDO": "NEDER",
+			"NOMBRE": "JOSÉ EMILIO",
+			"PROVINCIA": "SANTIAGO DEL ESTERO",
+			"PARTIDO": "FRENTE CÍVICO POR SANTIAGO",
+			"EMAIL": "jose.neder@senado.gob.ar",
+			"IMG": "/faces/510.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/josenedersde"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "504",
+			"BLOQUE": "UNIDAD CIUDADANA",
+			"APELLIDO": "PARRILLI",
+			"NOMBRE": "OSCAR ISIDRO",
+			"PROVINCIA": "NEUQUÉN",
+			"PARTIDO": "FRENTE DE TODOS",
+			"EMAIL": "oscar.parrilli@senado.gob.ar",
+			"IMG": "/faces/504.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/Oscar_Parrilli"],
+				["Facebook", "https://www.facebook.com/oscarparrillineuquen/"],
+				["Instagram", "https://www.instagram.com//oscar_parrilli"],
+				[
+					"Youtube",
+					"https://www.youtube.com/https://channel/UCd9tKeWjLYbQsxRv7hR1bng"
+				]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "435",
+			"BLOQUE": "FRENTE NACIONAL Y POPULAR",
+			"APELLIDO": "PILATTI VERGARA",
+			"NOMBRE": "MARÍA INÉS",
+			"PROVINCIA": "CHACO",
+			"PARTIDO": "FRENTE DE TODOS",
+			"EMAIL": "pilatti@senado.gob.ar",
+			"IMG": "/faces/435.gif",
+			"SOCIAL_MEDIA": [["Twitter", "https://twitter.com/pilattivergara"]],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "498",
+			"BLOQUE": "FRENTE NACIONAL Y POPULAR",
+			"APELLIDO": "RECALDE",
+			"NOMBRE": "MARIANO",
+			"PROVINCIA": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
+			"PARTIDO": "FRENTE DE TODOS",
+			"EMAIL": "mariano.recalde@senado.gob.ar",
+			"IMG": "/faces/498.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/marianorecalde"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "500",
+			"BLOQUE": "FRENTE NACIONAL Y POPULAR",
+			"APELLIDO": "RODAS",
+			"NOMBRE": "ANTONIO JOSÉ",
+			"PROVINCIA": "CHACO",
+			"PARTIDO": "FRENTE DE TODOS",
+			"EMAIL": "antonio.rodas@senado.gob.ar",
+			"IMG": "/faces/500.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/antoniorodasok"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "566",
+			"BLOQUE": "UNIDAD CIUDADANA",
+			"APELLIDO": "SALINO",
+			"NOMBRE": "FERNANDO ALDO",
+			"PROVINCIA": "SAN LUIS",
+			"PARTIDO": "ALIANZA UNIÓN POR LA PATRIA",
+			"EMAIL": "fernando.salino@senado.gob.ar",
+			"IMG": "/faces/566.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/fernandosalino"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "251",
+			"BLOQUE": "UNIDAD CIUDADANA",
+			"APELLIDO": "SAPAG",
+			"NOMBRE": "SILVIA ESTELA ",
+			"PROVINCIA": "NEUQUÉN",
+			"PARTIDO": "FRENTE DE TODOS",
+			"EMAIL": "silvia.sapag@senado.gob.ar",
+			"IMG": "/faces/251.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/sapag_silvia"],
+				["Instagram", "https://www.instagram.com/silviasapag"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "572",
+			"BLOQUE": "JUNTOS SOMOS RÍO NEGRO",
+			"APELLIDO": "SILVA",
+			"NOMBRE": "MÓNICA ESTHER",
+			"PROVINCIA": "RÍO NEGRO",
+			"PARTIDO": "JUNTOS SOMOS RÍO NEGRO",
+			"EMAIL": "monica.silva@senado.gob.ar",
+			"IMG": "/faces/572.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/monicasilvarn"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "528",
+			"BLOQUE": "CAMBIO FEDERAL",
+			"APELLIDO": "TERENZI",
+			"NOMBRE": "EDITH ELIZABETH",
+			"PROVINCIA": "CHUBUT",
+			"PARTIDO": "JUNTOS POR EL CAMBIO CHUBUT",
+			"EMAIL": "edith.terenzi@senado.gob.ar",
+			"IMG": "/faces/528.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/EdithTerenzi"]
+			],
+			"NEGATIVE": true
+		},
+		{
+			"ID": "561",
+			"BLOQUE": "FRENTE NACIONAL Y POPULAR",
+			"APELLIDO": "UÑAC",
+			"NOMBRE": "SERGIO MAURICIO",
+			"PROVINCIA": "SAN JUAN",
+			"PARTIDO": "ALIANZA UNIÓN POR LA PATRIA",
+			"EMAIL": "sergio.unac@senado.gob.ar",
+			"IMG": "/faces/561.gif",
+			"SOCIAL_MEDIA": [
+				["Twitter", "https://twitter.com/sergiounac/"],
+				["Facebook", "https://www.facebook.com/sergio.unac"],
+				["Instagram", "https://www.instagram.com/sergiounac"]
+			],
+			"NEGATIVE": true
+		}
+	]
+}
