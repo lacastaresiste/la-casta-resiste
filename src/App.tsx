@@ -17,11 +17,14 @@ function App() {
 				{members.map((member) => (
 					<DiputyCard
 						IMG={member.IMG}
+						IMG_SMALL={member.IMG_SMALL}
 						NOMBRE={member.NOMBRE}
 						APELLIDO={member.APELLIDO}
 						PARTIDO={member.PARTIDO}
 						BLOQUE={member.BLOQUE}
 						PROVINCIA={member.PROVINCIA}
+						EMAIL={member.EMAIL}
+						ASESORES={member.ASESORES}
 						SOCIAL_MEDIA={member.SOCIAL_MEDIA}
 					/>
 				))}

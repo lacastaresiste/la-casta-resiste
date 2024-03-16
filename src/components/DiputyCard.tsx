@@ -5,11 +5,14 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 
 export interface IDiputyCardProps {
 	IMG: string;
+	IMG_SMALL: string;
 	NOMBRE: string;
 	APELLIDO: string;
 	PARTIDO: string;
 	BLOQUE: string;
 	PROVINCIA: string;
+	EMAIL: string;
+	ASESORES: number;
 	SOCIAL_MEDIA: string[][];
 }
 
@@ -42,77 +45,96 @@ const capitalizeWords = (sentence: string) => {
 
 export const DiputyCard: React.FC<IDiputyCardProps> = ({
 	IMG,
+	IMG_SMALL,
 	NOMBRE,
 	APELLIDO,
 	PARTIDO,
 	BLOQUE,
 	PROVINCIA,
+	EMAIL,
+	ASESORES,
 	SOCIAL_MEDIA,
 }) => {
 	return (
-		<div className="diputy-card grid grid-rows-2 lg:grid-rows-1 2xl:grid-cols-[max_auto] bg-third rounded shadow-[1px_10px_20px_0px_rgba(0,0,0,0.2)] overflow-hidden">
-			{/* name, face and socials. */}
-			<div className="flex flex-col bg-secondary p-4 items-center justify-between gap-4">
-				<div className="border-2 border-primary overflow-hidden rounded-full w-[120px] h-[120px] flex">
-					<img
-						className="max-w-full max-h-full block object-cover"
-						src={IMG}
-						alt=""
-					/>
-				</div>
-				<span className="font-bold text-[0.8em] text-white text-center">
-					{capitalizeWords(NOMBRE + " " + APELLIDO)}
-				</span>
-				<div className="flex flex-col select-none font-medium items-center">
-					{/* <span className="text-[#ff335c] text-[1em]">Redes</span> */}
-					<div className="flex flex-row gap-2">
-						{SOCIAL_MEDIA.length === 0 ? (
-							<span className="text-sm w-fit font-normal text-white">no disponible</span>
-						) : (
-							SOCIAL_MEDIA.map((media, index) => (
-								<a
-									key={index}
-									href={media[1]}
-									target="_blank"
-									className="w-fit font-normal text-white hover:text-primary transition-colors"
-								>
-									{getIcons(media[0])}
-								</a>
-							))
-						)}
-					</div>
+		<div className="flex flex-col bg-third shadow-[1px_10px_20px_0px_rgba(0,0,0,0.2)] rounded overflow-hidden">
+			<div className="border-b border-b-[#888] grid grid-rows-2 grid-cols-2">
+				<img
+					className="block object-cover row-start-1 row-end-3 col-start-1 col-end-3"
+					src={IMG}
+					alt=""
+				/>
+				<img
+					className="max-w-[80px] block object-cover border-4 rounded-full border-primary row-start-2 row-end-3 col-start-1 col-end-2 self-end ml-4 mb-4"
+					src={IMG_SMALL}
+					alt=""
+				/>
+			</div>
+
+			<div className="flex flex-col items-center mt-4 border-b-[#555] border-b w-full">
+				<span className="font-medium text-primary text-[1em] block">Redes</span>
+				<div className="flex flex-row items-center justify-between p-4">
+					{SOCIAL_MEDIA.length === 0 ? (
+						<span className="text-sm w-fit font-normal text-white">
+							no disponible
+						</span>
+					) : (
+						SOCIAL_MEDIA.map((media, index) => (
+							<a
+								key={index}
+								href={media[1]}
+								target="_blank"
+								className="w-fit font-normal text-white hover:text-primary transition-colors"
+							>
+								{getIcons(media[0])}
+							</a>
+						))
+					)}
 				</div>
 			</div>
-			{/* details */}
-			<div className="flex flex-row text-white justify-center items-center w-full">
-				<div className="flex flex-col gap-2 md:grid text-white md:grid-cols-2 md:gap-8 p-4">
-					<div>
-						<span className="font-medium text-primary text-[1em] block">
-							Partido o Alianza
-						</span>
-						<span className="text-[0.85em]">{capitalizeWords(PARTIDO)}</span>
-					</div>
 
-					<div>
-						<span className="font-medium text-primary text-[1em] block">
-							Bloque
-						</span>
-						<span className="text-[0.85em]">{capitalizeWords(BLOQUE)}</span>
-					</div>
+			<div className="flex flex-col gap-2 text-white p-2">
+				<div>
+					<span className="font-medium text-primary text-[1em] block">
+						Nombre y Apellido
+					</span>
+					<span className="text-[0.8em] text-white text-center">
+						{capitalizeWords(NOMBRE + " " + APELLIDO)}
+					</span>
+				</div>
 
-					<div>
-						<span className="font-medium text-primary text-[1em] block">
-							Provincia
-						</span>
-						<span className="text-[0.85em]">{capitalizeWords(PROVINCIA)}</span>
-					</div>
+				<div>
+					<span className="font-medium text-primary text-[1em] block">
+						Partido o Alianza
+					</span>
+					<span className="text-[0.85em]">{capitalizeWords(PARTIDO)}</span>
+				</div>
 
-					<div>
-						<span className="font-medium text-primary text-[1em] block">
-							Asesores
-						</span>
-						<span className="text-[0.85em]">{0}</span>
-					</div>
+				<div>
+					<span className="font-medium text-primary text-[1em] block">
+						Bloque
+					</span>
+					<span className="text-[0.85em]">{capitalizeWords(BLOQUE)}</span>
+				</div>
+
+				<div>
+					<span className="font-medium text-primary text-[1em] block">
+						Provincia
+					</span>
+					<span className="text-[0.85em]">{capitalizeWords(PROVINCIA)}</span>
+				</div>
+
+				<div>
+					<span className="font-medium text-primary text-[1em] block">
+						Email
+					</span>
+					<span className="text-[0.85em] break-all whitespace-normal">{EMAIL}</span>
+				</div>
+
+				<div>
+					<span className="font-medium text-primary text-[1em] block">
+						Asesores
+					</span>
+					<span className="text-[0.85em]">{ASESORES}</span>
 				</div>
 			</div>
 		</div>

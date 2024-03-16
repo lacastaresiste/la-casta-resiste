@@ -8,10 +8,10 @@
 			"PROVINCIA": "CATAMARCA",
 			"PARTIDO": "FRENTE DE TODOS",
 			"EMAIL": "guillermo.andrada@senado.gob.ar",
-			"IMG": "/some-project/519.gif",
-			"SOCIAL_MEDIA": [
-				["Twitter", "https://twitter.com/negrojoao"]
-			],
+			"IMG": "/some-project/faces/519.jpg",
+			"IMG_SMALL": "/some-project/faces-small/519.gif",
+			"SOCIAL_MEDIA": [["Twitter", "https://twitter.com/negrojoao"]],
+			"ASESORES": 20,
 			"NEGATIVE": true
 		},
 		{
@@ -22,13 +22,15 @@
 			"PROVINCIA": "LA PAMPA",
 			"PARTIDO": "FRENTE DE TODOS",
 			"EMAIL": "daniel.bensusan@senado.gob.ar",
-			"IMG": "/some-project/532.gif",
+			"IMG": "/some-project/faces/532.jpg",
+			"IMG_SMALL": "/some-project/faces-small/532.gif",
 			"SOCIAL_MEDIA": [
 				["Twitter", "https://twitter.com/palibensusan?s=11"],
 				["Facebook", "https://www.facebook.com/dpbensusan"],
 				["Instagram", "https://www.instagram.com/palibensusan/"],
 				["Youtube", "https://youtube.com/channel/UCVGEIDtt26DtcpADWXGLkDg"]
 			],
+			"ASESORES": 27,
 			"NEGATIVE": true
 		},
 		{
@@ -39,12 +41,14 @@
 			"PROVINCIA": "TIERRA DEL FUEGO",
 			"PARTIDO": "JUNTOS POR EL CAMBIO",
 			"EMAIL": "pablo.blanco@senado.gob.ar",
-			"IMG": "/some-project/511.gif",
+			"IMG": "/some-project/faces/511.jpg",
+			"IMG_SMALL": "/some-project/faces-small/511.gif",
 			"SOCIAL_MEDIA": [
 				["Twitter", "https://twitter.com/blancopabloda"],
 				["Facebook", "https://www.facebook.com/pablodanielblancosenador"],
 				["Instagram", "https://www.instagram.com/blancopablodaniel"]
 			],
+			"ASESORES": 27,
 			"NEGATIVE": true
 		},
 		{
@@ -55,10 +59,10 @@
 			"PROVINCIA": "SANTA CRUZ",
 			"PARTIDO": "ALIANZA POR SANTA CRUZ",
 			"EMAIL": "jose.carambia@senado.gob.ar",
-			"IMG": "/some-project/567.gif",
-			"SOCIAL_MEDIA": [
-				["Twitter", "https://twitter.com/josemacarambia"]
-			],
+			"IMG": "/some-project/faces/567.jpg",
+			"IMG_SMALL": "/some-project/faces-small/567.gif",
+			"SOCIAL_MEDIA": [["Twitter", "https://twitter.com/josemacarambia"]],
+			"ASESORES": 21,
 			"NEGATIVE": true
 		},
 		{
@@ -69,10 +73,10 @@
 			"PROVINCIA": "CATAMARCA",
 			"PARTIDO": "FRENTE DE TODOS",
 			"EMAIL": "lucia.corpacci@senado.gob.ar",
-			"IMG": "/some-project/398.gif",
-			"SOCIAL_MEDIA": [
-				["Twitter", "https://twitter.com/LuciaCorpacci"]
-			],
+			"IMG": "/some-project/faces/398.jpg",
+			"IMG_SMALL": "/some-project/faces-small/398.gif",
+			"SOCIAL_MEDIA": [["Twitter", "https://twitter.com/LuciaCorpacci"]],
+			"ASESORES": 21,
 			"NEGATIVE": true
 		},
 		{
@@ -83,8 +87,10 @@
 			"PROVINCIA": "NEUQUÉN",
 			"PARTIDO": "JUNTOS POR EL CAMBIO",
 			"EMAIL": "lucila.crexell@senado.gob.ar",
-			"IMG": "/some-project/440.gif",
+			"IMG": "/some-project/faces/440.jpg",
+			"IMG_SMALL": "/some-project/faces-small/440.gif",
 			"SOCIAL_MEDIA": [["Twitter", "https://twitter.com/LucilaCrexell"]],
+			"ASESORES": 17,
 			"NEGATIVE": true
 		},
 		{
@@ -95,13 +101,15 @@
 			"PROVINCIA": "BUENOS AIRES",
 			"PARTIDO": "ALIANZA UNIÓN POR LA PATRIA",
 			"EMAIL": "eduardo.depedro@senado.gob.ar",
-			"IMG": "/some-project/545.gif",
+			"IMG": "/some-project/faces/545.jpg",
+			"IMG_SMALL": "/some-project/faces-small/545.gif",
 			"SOCIAL_MEDIA": [
 				["Twitter", "https://twitter.com/wadodecorrido"],
 				["Facebook", "https://www.facebook.com/wadodecorrido"],
 				["Instagram", "https://www.instagram.com/wadodecorrido"],
 				["Youtube", "https://www.youtube.com/wadodecorrido"]
 			],
+			"ASESORES": 9,
 			"NEGATIVE": true
 		},
 		{
@@ -112,10 +120,10 @@
 			"PROVINCIA": "BUENOS AIRES",
 			"PARTIDO": "ALIANZA UNIÓN POR LA PATRIA",
 			"EMAIL": "juliana.ditullio@senado.gob.ar",
-			"IMG": "/some-project/517.gif",
-			"SOCIAL_MEDIA": [
-				["Twitter", "https://twitter.com/ditulliojuli"]
-			],
+			"IMG": "/some-project/faces/517.jpg",
+			"IMG_SMALL": "/some-project/faces-small/517.gif",
+			"SOCIAL_MEDIA": [["Twitter", "https://twitter.com/ditulliojuli"]],
+			"ASESORES": 10,
 			"NEGATIVE": true
 		},
 		{
@@ -126,10 +134,10 @@
 			"PROVINCIA": "RÍO NEGRO",
 			"PARTIDO": "FRENTE DE TODOS",
 			"EMAIL": "martin.donate@senado.gob.ar",
-			"IMG": "/some-project/505.gif",
-			"SOCIAL_MEDIA": [
-				["Twitter", "https://twitter.com/martindonate"]
-			],
+			"IMG": "/some-project/faces/505.jpg",
+			"IMG_SMALL": "/some-project/faces-small/505.gif",
+			"SOCIAL_MEDIA": [["Twitter", "https://twitter.com/martindonate"]],
+			"ASESORES": 19,
 			"NEGATIVE": true
 		},
 		{
@@ -140,10 +148,10 @@
 			"PROVINCIA": "TIERRA DEL FUEGO",
 			"PARTIDO": "FRENTE DE TODOS",
 			"EMAIL": "maria.dure@senado.gob.ar",
-			"IMG": "/some-project/512.gif",
-			"SOCIAL_MEDIA": [
-				["Twitter","https://twitter.com/EugeniaDureTDF"]
-			],
+			"IMG": "/some-project/faces/512.jpg",
+			"IMG_SMALL": "/some-project/faces-small/512.gif",
+			"SOCIAL_MEDIA": [["Twitter", "https://twitter.com/EugeniaDureTDF"]],
+			"ASESORES": 18,
 			"NEGATIVE": true
 		},
 		{
@@ -154,8 +162,10 @@
 			"PROVINCIA": "CORRIENTES",
 			"PARTIDO": "FRENTE TODOS",
 			"EMAIL": "carlos.espinola@senado.gob.ar",
-			"IMG": "/some-project/461.gif",
+			"IMG": "/some-project/faces/461.jpg",
+			"IMG_SMALL": "/some-project/faces-small/461.gif",
 			"SOCIAL_MEDIA": [["Twitter", "https://twitter.com/espinolacamau"]],
+			"ASESORES": 32,
 			"NEGATIVE": true
 		},
 		{
@@ -166,13 +176,15 @@
 			"PROVINCIA": "MENDOZA",
 			"PARTIDO": "FRENTE DE TODOS",
 			"EMAIL": "anabel.fernandezsagasti@senado.gob.ar",
-			"IMG": "/some-project/468.gif",
+			"IMG": "/some-project/faces/468.jpg",
+			"IMG_SMALL": "/some-project/faces-small/468.gif",
 			"SOCIAL_MEDIA": [
 				["Twitter", "https://twitter.com/anabelfsagasti"],
 				["Facebook", "https://www.facebook.com/anabelfsagasti"],
 				["Instagram", "https://www.instagram.com/anabelfsagasti"],
 				["Youtube", "https://www.youtube.com/anabelfsagasti"]
 			],
+			"ASESORES": 21,
 			"NEGATIVE": true
 		},
 		{
@@ -183,10 +195,12 @@
 			"PROVINCIA": "SANTA CRUZ",
 			"PARTIDO": "ALIANZA POR SANTA CRUZ",
 			"EMAIL": "natalia.gadano@senado.gob.ar",
-			"IMG": "/some-project/568.gif",
+			"IMG": "/some-project/faces/568.jpg",
+			"IMG_SMALL": "/some-project/faces-small/568.gif",
 			"SOCIAL_MEDIA": [
 				["Instagram", "https://www.instagram.com/nataliagadano"]
 			],
+			"ASESORES": 15,
 			"NEGATIVE": true
 		},
 		{
@@ -197,9 +211,9 @@
 			"PROVINCIA": "RÍO NEGRO",
 			"PARTIDO": "FRENTE DE TODOS",
 			"EMAIL": "silvina.garcialarraburu@senado.gob.ar",
-			"IMG": "/some-project/441.gif",
+			"IMG": "/some-project/faces/441.jpg",
+			"IMG_SMALL": "/some-project/faces-small/441.gif",
 			"SOCIAL_MEDIA": [
-				["Twitter", "https://twitter.com/"],
 				[
 					"Facebook",
 					"https://www.facebook.com/Silvina-García-Larraburu-147895613528/"
@@ -207,6 +221,7 @@
 				["Instagram", "https://instagram.com/garcialarraburu/"],
 				["Youtube", "https://youtube.com/channel/UCfsYLk17ffJTNto2_ScC7jQ"]
 			],
+			"ASESORES": 14,
 			"NEGATIVE": true
 		},
 		{
@@ -217,10 +232,10 @@
 			"PROVINCIA": "SALTA",
 			"PARTIDO": "FRENTE DE TODOS",
 			"EMAIL": "nora.gimenez@senado.gob.ar",
-			"IMG": "/some-project/507.gif",
-			"SOCIAL_MEDIA": [
-				["Instagram", "https://www.instagram.com/noragiok"]
-			],
+			"IMG": "/some-project/faces/507.jpg",
+			"IMG_SMALL": "/some-project/faces-small/507.gif",
+			"SOCIAL_MEDIA": [["Instagram", "https://www.instagram.com/noragiok"]],
+			"ASESORES": 12,
 			"NEGATIVE": true
 		},
 		{
@@ -231,10 +246,12 @@
 			"PROVINCIA": "SAN JUAN",
 			"PARTIDO": "ALIANZA UNIÓN POR LA PATRIA",
 			"EMAIL": "mcgimeneznavarro@senado.gob.ar",
-			"IMG": "/some-project/562.gif",
+			"IMG": "/some-project/faces/562.jpg",
+			"IMG_SMALL": "/some-project/faces-small/562.gif",
 			"SOCIAL_MEDIA": [
 				["Instagram", "https://www.instagram.com/celestegimeneznavarro"]
 			],
+			"ASESORES": 22,
 			"NEGATIVE": true
 		},
 		{
@@ -245,8 +262,10 @@
 			"PROVINCIA": "FORMOSA",
 			"PARTIDO": "ALIANZA UNIÓN POR LA PATRIA",
 			"EMAIL": "maria.gonzalez@senado.gob.ar",
-			"IMG": "/some-project/477.gif",
+			"IMG": "/some-project/faces/477.jpg",
+			"IMG_SMALL": "/some-project/faces-small/477.gif",
 			"SOCIAL_MEDIA": [],
+			"ASESORES": 24,
 			"NEGATIVE": true
 		},
 		{
@@ -257,8 +276,10 @@
 			"PROVINCIA": "SANTA CRUZ",
 			"PARTIDO": "ALIANZA UNIÓN POR LA PATRIA",
 			"EMAIL": "alicia.kirchner@senado.gob.ar",
-			"IMG": "/some-project/366.gif",
+			"IMG": "/some-project/faces/366.jpg",
+			"IMG_SMALL": "/some-project/faces-small/366.gif",
 			"SOCIAL_MEDIA": [],
+			"ASESORES": 13,
 			"NEGATIVE": true
 		},
 		{
@@ -269,10 +290,10 @@
 			"PROVINCIA": "ENTRE RÍOS",
 			"PARTIDO": "FRENTE TODOS",
 			"EMAIL": "kueider@senado.gob.ar",
-			"IMG": "/some-project/502.gif",
-			"SOCIAL_MEDIA": [
-				["Twitter", "https://twitter.com/EdgardoKueider"]
-			],
+			"IMG": "/some-project/faces/502.jpg",
+			"IMG_SMALL": "/some-project/faces-small/502.gif",
+			"SOCIAL_MEDIA": [["Twitter", "https://twitter.com/EdgardoKueider"]],
+			"ASESORES": 25,
 			"NEGATIVE": true
 		},
 		{
@@ -283,13 +304,15 @@
 			"PROVINCIA": "SALTA",
 			"PARTIDO": "FRENTE DE TODOS",
 			"EMAIL": "sergio.leavy@senado.gob.ar",
-			"IMG": "/some-project/508.gif",
+			"IMG": "/some-project/faces/508.jpg",
+			"IMG_SMALL": "/some-project/faces-small/508.gif",
 			"SOCIAL_MEDIA": [
 				["Twitter", "https://twitter.com/ElOsoLeavy"],
 				["Facebook", "https://www.facebook.com/ElOsoLeavy"],
 				["Instagram", "https://www.instagram.com/osoleavy"],
 				["Youtube", "https://www.youtube.com/c/SergioOsoLeavy"]
 			],
+			"ASESORES": 20,
 			"NEGATIVE": true
 		},
 		{
@@ -300,10 +323,12 @@
 			"PROVINCIA": "SANTIAGO DEL ESTERO",
 			"PARTIDO": "FRENTE CÍVICO POR SANTIAGO",
 			"EMAIL": "claudia.ledesma@senado.gob.ar",
-			"IMG": "/some-project/509.gif",
+			"IMG": "/some-project/faces/509.jpg",
+			"IMG_SMALL": "/some-project/faces-small/509.gif",
 			"SOCIAL_MEDIA": [
 				["Instagram", "https://www.instagram.com/claudiazamorasde"]
 			],
+			"ASESORES": 4,
 			"NEGATIVE": true
 		},
 		{
@@ -314,10 +339,10 @@
 			"PROVINCIA": "SANTA FE",
 			"PARTIDO": "FRENTE DE TODOS",
 			"EMAIL": "marcelo.lewandowski@senado.gob.ar",
-			"IMG": "/some-project/538.gif",
-			"SOCIAL_MEDIA": [
-				["Instagram", "https://www.instagram.com/marcelewan/"]
-			],
+			"IMG": "/some-project/faces/538.jpg",
+			"IMG_SMALL": "/some-project/faces-small/538.gif",
+			"SOCIAL_MEDIA": [["Instagram", "https://www.instagram.com/marcelewan/"]],
+			"ASESORES": 22,
 			"NEGATIVE": true
 		},
 		{
@@ -328,12 +353,14 @@
 			"PROVINCIA": "CHUBUT",
 			"PARTIDO": "FRENTE DE TODOS",
 			"EMAIL": "carlos.linares@senado.gob.ar",
-			"IMG": "/some-project/529.gif",
+			"IMG": "/some-project/faces/529.jpg",
+			"IMG_SMALL": "/some-project/faces-small/529.gif",
 			"SOCIAL_MEDIA": [
 				["Twitter", "https://twitter.com/LinaresCarlosCR"],
 				["Facebook", "https://www.facebook.com/LinaresCarlosCR"],
 				["Instagram", "https://www.instagram.com/carloslinarescr/"]
 			],
+			"ASESORES": 18,
 			"NEGATIVE": true
 		},
 		{
@@ -344,8 +371,10 @@
 			"PROVINCIA": "TIERRA DEL FUEGO",
 			"PARTIDO": "ALIANZA FRENTE DE TODOS",
 			"EMAIL": "cristina.lopez@senado.gob.ar",
-			"IMG": "/some-project/574.gif",
+			"IMG": "/some-project/faces/574.jpg",
+			"IMG_SMALL": "/some-project/faces-small/574.gif",
 			"SOCIAL_MEDIA": [],
+			"ASESORES": 19,
 			"NEGATIVE": true
 		},
 		{
@@ -356,10 +385,10 @@
 			"PROVINCIA": "LA RIOJA",
 			"PARTIDO": "ALIANZA UNIÓN POR LA PATRIA",
 			"EMAIL": "florencia.lopez@senado.gob.ar",
-			"IMG": "/some-project/555.gif",
-			"SOCIAL_MEDIA": [
-				["Twitter", "https://twitter.com/Florelop"]
-			],
+			"IMG": "/some-project/faces/555.jpg",
+			"IMG_SMALL": "/some-project/faces-small/555.gif",
+			"SOCIAL_MEDIA": [["Twitter", "https://twitter.com/Florelop"]],
+			"ASESORES": 11,
 			"NEGATIVE": true
 		},
 		{
@@ -370,13 +399,15 @@
 			"PROVINCIA": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
 			"PARTIDO": "JUNTOS POR EL CAMBIO",
 			"EMAIL": "martin.lousteau@senado.gob.ar",
-			"IMG": "/some-project/497.gif",
+			"IMG": "/some-project/faces/497.jpg",
+			"IMG_SMALL": "/some-project/faces-small/497.gif",
 			"SOCIAL_MEDIA": [
 				["Twitter", "https://twitter.com/gugalusto"],
 				["Facebook", "https://www.facebook.com/gugalusto"],
 				["Instagram", "https://www.instagram.com/gugalusto"],
 				["Youtube", "https://youtube.com/martinlousteau"]
 			],
+			"ASESORES": 14,
 			"NEGATIVE": true
 		},
 		{
@@ -387,13 +418,15 @@
 			"PROVINCIA": "TUCUMÁN",
 			"PARTIDO": "ALIANZA FRENTE DE TODOS",
 			"EMAIL": "juan.manzur@senado.gob.ar",
-			"IMG": "/some-project/576.gif",
+			"IMG": "/some-project/faces/576.jpg",
+			"IMG_SMALL": "/some-project/faces-small/576.gif",
 			"SOCIAL_MEDIA": [
 				["Twitter", "https://twitter.com/JuanManzurOK"],
 				["Facebook", "https://www.facebook.com/JuanManzurOficial/"],
 				["Instagram", "https://www.instagram.com/juanluismanzur/"],
 				["Youtube", "https://www.youtube.com/@JuanManzurOK"]
 			],
+			"ASESORES": 7,
 			"NEGATIVE": true
 		},
 		{
@@ -404,10 +437,12 @@
 			"PROVINCIA": "TUCUMÁN",
 			"PARTIDO": "FRENTE DE TODOS",
 			"EMAIL": "sandra.mendoza@senado.gob.ar",
-			"IMG": "/some-project/540.gif",
+			"IMG": "/some-project/faces/540.jpg",
+			"IMG_SMALL": "/some-project/faces-small/540.gif",
 			"SOCIAL_MEDIA": [
 				["Instagram", "https://www.instagram.com/sandramendozasn/"]
 			],
+			"ASESORES": 26,
 			"NEGATIVE": true
 		},
 		{
@@ -418,10 +453,10 @@
 			"PROVINCIA": "JUJUY",
 			"PARTIDO": "ALIANZA UNIÓN POR LA PATRIA",
 			"EMAIL": "maria.moises@senado.gob.ar",
-			"IMG": "/some-project/554.gif",
-			"SOCIAL_MEDIA": [
-				["Twitter", "https://twitter.com/CarolinaMoises"]
-			],
+			"IMG": "/some-project/faces/554.jpg",
+			"IMG_SMALL": "/some-project/faces-small/554.gif",
+			"SOCIAL_MEDIA": [["Twitter", "https://twitter.com/CarolinaMoises"]],
+			"ASESORES": 38,
 			"NEGATIVE": true
 		},
 		{
@@ -432,10 +467,10 @@
 			"PROVINCIA": "SANTIAGO DEL ESTERO",
 			"PARTIDO": "FRENTE DE TODOS",
 			"EMAIL": "gerardo.montenegro@senado.gob.ar",
-			"IMG": "/some-project/446.gif",
-			"SOCIAL_MEDIA": [
-				["Twitter", "https://twitter.com/GerardoSenador"]
-			],
+			"IMG": "/some-project/faces/446.jpg",
+			"IMG_SMALL": "/some-project/faces-small/446.gif",
+			"SOCIAL_MEDIA": [["Twitter", "https://twitter.com/GerardoSenador"]],
+			"ASESORES": 44,
 			"NEGATIVE": true
 		},
 		{
@@ -446,10 +481,10 @@
 			"PROVINCIA": "SANTIAGO DEL ESTERO",
 			"PARTIDO": "FRENTE CÍVICO POR SANTIAGO",
 			"EMAIL": "jose.neder@senado.gob.ar",
-			"IMG": "/some-project/510.gif",
-			"SOCIAL_MEDIA": [
-				["Twitter", "https://twitter.com/josenedersde"]
-			],
+			"IMG": "/some-project/faces/510.jpg",
+			"IMG_SMALL": "/some-project/faces-small/510.gif",
+			"SOCIAL_MEDIA": [["Twitter", "https://twitter.com/josenedersde"]],
+			"ASESORES": 19,
 			"NEGATIVE": true
 		},
 		{
@@ -460,7 +495,8 @@
 			"PROVINCIA": "NEUQUÉN",
 			"PARTIDO": "FRENTE DE TODOS",
 			"EMAIL": "oscar.parrilli@senado.gob.ar",
-			"IMG": "/some-project/504.gif",
+			"IMG": "/some-project/faces/504.jpg",
+			"IMG_SMALL": "/some-project/faces-small/504.gif",
 			"SOCIAL_MEDIA": [
 				["Twitter", "https://twitter.com/Oscar_Parrilli"],
 				["Facebook", "https://www.facebook.com/oscarparrillineuquen/"],
@@ -470,6 +506,7 @@
 					"https://www.youtube.com/https://channel/UCd9tKeWjLYbQsxRv7hR1bng"
 				]
 			],
+			"ASESORES": 20,
 			"NEGATIVE": true
 		},
 		{
@@ -480,8 +517,10 @@
 			"PROVINCIA": "CHACO",
 			"PARTIDO": "FRENTE DE TODOS",
 			"EMAIL": "pilatti@senado.gob.ar",
-			"IMG": "/some-project/435.gif",
+			"IMG": "/some-project/faces/435.jpg",
+			"IMG_SMALL": "/some-project/faces-small/435.gif",
 			"SOCIAL_MEDIA": [["Twitter", "https://twitter.com/pilattivergara"]],
+			"ASESORES": 40,
 			"NEGATIVE": true
 		},
 		{
@@ -492,10 +531,10 @@
 			"PROVINCIA": "CIUDAD AUTÓNOMA DE BUENOS AIRES",
 			"PARTIDO": "FRENTE DE TODOS",
 			"EMAIL": "mariano.recalde@senado.gob.ar",
-			"IMG": "/some-project/498.gif",
-			"SOCIAL_MEDIA": [
-				["Twitter", "https://twitter.com/marianorecalde"]
-			],
+			"IMG": "/some-project/faces/498.jpg",
+			"IMG_SMALL": "/some-project/faces-small/498.gif",
+			"SOCIAL_MEDIA": [["Twitter", "https://twitter.com/marianorecalde"]],
+			"ASESORES": 27,
 			"NEGATIVE": true
 		},
 		{
@@ -506,10 +545,10 @@
 			"PROVINCIA": "CHACO",
 			"PARTIDO": "FRENTE DE TODOS",
 			"EMAIL": "antonio.rodas@senado.gob.ar",
-			"IMG": "/some-project/500.gif",
-			"SOCIAL_MEDIA": [
-				["Twitter", "https://twitter.com/antoniorodasok"]
-			],
+			"IMG": "/some-project/faces/500.jpg",
+			"IMG_SMALL": "/some-project/faces-small/500.gif",
+			"SOCIAL_MEDIA": [["Twitter", "https://twitter.com/antoniorodasok"]],
+			"ASESORES": 35,
 			"NEGATIVE": true
 		},
 		{
@@ -520,10 +559,10 @@
 			"PROVINCIA": "SAN LUIS",
 			"PARTIDO": "ALIANZA UNIÓN POR LA PATRIA",
 			"EMAIL": "fernando.salino@senado.gob.ar",
-			"IMG": "/some-project/566.gif",
-			"SOCIAL_MEDIA": [
-				["Twitter", "https://twitter.com/fernandosalino"]
-			],
+			"IMG": "/some-project/faces/566.jpg",
+			"IMG_SMALL": "/some-project/faces-small/566.gif",
+			"SOCIAL_MEDIA": [["Twitter", "https://twitter.com/fernandosalino"]],
+			"ASESORES": 21,
 			"NEGATIVE": true
 		},
 		{
@@ -534,11 +573,13 @@
 			"PROVINCIA": "NEUQUÉN",
 			"PARTIDO": "FRENTE DE TODOS",
 			"EMAIL": "silvia.sapag@senado.gob.ar",
-			"IMG": "/some-project/251.gif",
+			"IMG": "/some-project/faces/251.jpg",
+			"IMG_SMALL": "/some-project/faces-small/251.gif",
 			"SOCIAL_MEDIA": [
 				["Twitter", "https://twitter.com/sapag_silvia"],
 				["Instagram", "https://www.instagram.com/silviasapag"]
 			],
+			"ASESORES": 22,
 			"NEGATIVE": true
 		},
 		{
@@ -549,10 +590,10 @@
 			"PROVINCIA": "RÍO NEGRO",
 			"PARTIDO": "JUNTOS SOMOS RÍO NEGRO",
 			"EMAIL": "monica.silva@senado.gob.ar",
-			"IMG": "/some-project/572.gif",
-			"SOCIAL_MEDIA": [
-				["Twitter", "https://twitter.com/monicasilvarn"]
-			],
+			"IMG": "/some-project/faces/572.jpg",
+			"IMG_SMALL": "/some-project/faces-small/572.gif",
+			"SOCIAL_MEDIA": [["Twitter", "https://twitter.com/monicasilvarn"]],
+			"ASESORES": 24,
 			"NEGATIVE": true
 		},
 		{
@@ -563,10 +604,10 @@
 			"PROVINCIA": "CHUBUT",
 			"PARTIDO": "JUNTOS POR EL CAMBIO CHUBUT",
 			"EMAIL": "edith.terenzi@senado.gob.ar",
-			"IMG": "/some-project/528.gif",
-			"SOCIAL_MEDIA": [
-				["Twitter", "https://twitter.com/EdithTerenzi"]
-			],
+			"IMG": "/some-project/faces/528.jpg",
+			"IMG_SMALL": "/some-project/faces-small/528.gif",
+			"SOCIAL_MEDIA": [["Twitter", "https://twitter.com/EdithTerenzi"]],
+			"ASESORES": 14,
 			"NEGATIVE": true
 		},
 		{
@@ -577,12 +618,14 @@
 			"PROVINCIA": "SAN JUAN",
 			"PARTIDO": "ALIANZA UNIÓN POR LA PATRIA",
 			"EMAIL": "sergio.unac@senado.gob.ar",
-			"IMG": "/some-project/561.gif",
+			"IMG": "/some-project/faces/561.jpg",
+			"IMG_SMALL": "/some-project/faces-small/561.gif",
 			"SOCIAL_MEDIA": [
 				["Twitter", "https://twitter.com/sergiounac/"],
 				["Facebook", "https://www.facebook.com/sergio.unac"],
 				["Instagram", "https://www.instagram.com/sergiounac"]
 			],
+			"ASESORES": 22,
 			"NEGATIVE": true
 		}
 	]
