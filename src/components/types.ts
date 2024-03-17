@@ -5,7 +5,6 @@ export interface Member {
     NOMBRE: string;
     PROVINCIA: string;
     PARTIDO: string;
-    EMAIL: string;
     IMG: string;
     IMG_SMALL: string;
     SOCIAL_MEDIA: string[][];

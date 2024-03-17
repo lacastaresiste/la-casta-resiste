@@ -11,3 +11,16 @@ body {
     font-family: 'Lato';
     background-color: #111;
 }
+
+:root {
+    color-scheme: dark;
+}
+
+.scrollBody {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    flex-direction: column;
+}

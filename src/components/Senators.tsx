@@ -11,13 +11,11 @@ export const Senators: React.FC<ISenatorsProps> = ({ filters }) => {
 
 	const Senators = filteredSenators.length > 0 ? filteredSenators : Senate.senators;
 
-	console.log(Senators);
-
 	return (
 		<>
-			{Senators.map((senator) => (
+			{Senators.map((senator, index) => (
 				<SenatorCard
-					key={senator.ID}
+					key={index}
 					ID={senator.ID}
 					IMG_SMALL={senator.IMG_SMALL}
 					NOMBRE={senator.NOMBRE}
@@ -25,7 +23,6 @@ export const Senators: React.FC<ISenatorsProps> = ({ filters }) => {
 					PARTIDO={senator.PARTIDO}
 					BLOQUE={senator.BLOQUE}
 					PROVINCIA={senator.PROVINCIA}
-					EMAIL={senator.EMAIL}
 					ASESORES={senator.ASESORES}
 					SOCIAL_MEDIA={senator.SOCIAL_MEDIA}
 				/>
