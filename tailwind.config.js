@@ -7,11 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        "primary": '#A90000',
+        "primary": 'rgb(255 52 52)',
         "secondary": 'rgb(35 35 35)',
         "third": 'rgb(25 25 25);',
         "background": '#111',
-        "white": '#CCC'
+        "navbar": '#222',
+        "white": '#CCC',
+        "title": '#EEE'
       }
     },
   },
