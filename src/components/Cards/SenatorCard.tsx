@@ -1,10 +1,10 @@
 import { useMediaQuery } from "react-responsive";
-import { CardHeader, Avatar, CardMedia } from "@mui/material";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import YoutubeIcon from "@mui/icons-material/YouTube";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import { capitalizeWords } from "./utils";
+import { capitalizeWords } from "../utils";
+import { Avatar, CardHeader } from "@mui/material";
 
 const getIcons = (name: string) => {
 	if (name === "Twitter") {
@@ -26,7 +26,6 @@ const getIcons = (name: string) => {
 
 export interface ISenatorCardProps {
 	ID: string;
-	IMG_SMALL: string;
 	NOMBRE: string;
 	APELLIDO: string;
 	PARTIDO: string;
@@ -37,13 +36,13 @@ export interface ISenatorCardProps {
 }
 
 const Images_Loc = {
-	IMG_512: "/some-project/faces_512/",
-	IMG_256: "/some-project/faces_256/",
+	IMG_512: "/inicio/faces_512/",
+	IMG_256: "/inicio/faces_256/",
+	IMG_SMALL: "/inicio/faces-small/",
 };
 
 export const SenatorCard: React.FC<ISenatorCardProps> = ({
 	ID,
-	IMG_SMALL,
 	NOMBRE,
 	APELLIDO,
 	PARTIDO,
@@ -58,16 +57,18 @@ export const SenatorCard: React.FC<ISenatorCardProps> = ({
 	const IMAGE_512 = Images_Loc.IMG_512 + ID + ".webp";
 
 	return (
-		<div className="rounded-md shadow-lg flex flex-col overflow-hidden">
+		<div className="rounded-md shadow-lg flex flex-col overflow-hidden border border-[#555]">
 			<CardHeader
 				avatar={
-					<Avatar aria-label="senator">
-						<img src={IMG_SMALL} alt="" />
-					</Avatar>
+					<Avatar
+						aria-label="senator avatar"
+						src={Images_Loc.IMG_SMALL + ID + ".gif"}
+						alt={NOMBRE + " " + APELLIDO}
+					></Avatar>
 				}
-				title={NOMBRE + " " + APELLIDO}
-				subheader={PARTIDO}
-				className="bg-[#202020] "
+				title={<p>{NOMBRE + " " + APELLIDO}</p>}
+				subheader={<p>{PARTIDO}</p>}
+				className="bg-card-header border-b border-[#555]"
 			/>
 
 			<div className="grid grid-rows-2 grid-cols-2 h-full rounded-md">

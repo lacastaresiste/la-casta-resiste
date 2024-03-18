@@ -13,7 +13,8 @@ export default {
         "background": '#111',
         "navbar": '#222',
         "white": '#CCC',
-        "title": '#EEE'
+        "title": '#EEE',
+        "card-header": "#222"
       }
     },
   },

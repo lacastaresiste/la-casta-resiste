@@ -12,15 +12,11 @@ body {
     background-color: #111;
 }
 
+#senators {
+    scrollbar-width: thin;
+}
+
 :root {
     color-scheme: dark;
 }
 
-.scrollBody {
-    width: 100vw;
-    position: fixed;
-    top: 0;
-
-    display: flex;
-    flex-direction: column;
-}
