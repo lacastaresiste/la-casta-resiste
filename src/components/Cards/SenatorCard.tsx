@@ -4,7 +4,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import YoutubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { capitalizeWords } from '../../utils/utils';
-import { Avatar, CardHeader } from '@mui/material';
+import { Avatar, CardHeader, useTheme } from '@mui/material';
 
 const getIcons = (name: string) => {
   if (name === 'Twitter') {
@@ -53,11 +53,19 @@ export const SenatorCard: React.FC<ISenatorCardProps> = ({
 }) => {
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 480px)' });
 
+  const { palette } = useTheme();
+  const isLight = palette.mode === 'light' ? true : false;
+
+  const borderColorScheme = `${isLight ? 'border-light-border' : 'border-dark-border'}`;
+  const gradientColorScheme = `${isLight ? 'bg-gradient-to-b from-[#0000001e] to-[#5050509F]' : 'bg-gradient-to-b from-[#0000001e] to-[#000000]'}`;
+
   const IMAGE_256 = Images_Loc.IMG_256 + ID + '.webp';
   const IMAGE_512 = Images_Loc.IMG_512 + ID + '.webp';
 
   return (
-    <div className="rounded-md shadow-lg flex flex-col overflow-hidden border border-[#555]">
+    <div
+      className={`rounded-md shadow-lg flex flex-col overflow-hidden border ${borderColorScheme}`}
+    >
       <CardHeader
         avatar={
           <Avatar
@@ -68,7 +76,7 @@ export const SenatorCard: React.FC<ISenatorCardProps> = ({
         }
         title={<p>{NOMBRE + ' ' + APELLIDO}</p>}
         subheader={<p>{PARTIDO}</p>}
-        className="bg-card-header border-b border-[#555]"
+        className={`${isLight ? `bg-card-header-light border-b ${borderColorScheme}` : `bg-card-header border-b ${borderColorScheme}`}`}
       />
 
       <div className="grid grid-rows-2 grid-cols-2 h-full rounded-md">
@@ -79,7 +87,9 @@ export const SenatorCard: React.FC<ISenatorCardProps> = ({
             alt={NOMBRE}
           />
         </div>
-        <div className="flex rounded-md flex-col-reverse gap-2 col-start-1 col-end-3 row-start-1 row-end-3 p-4 bg-gradient-to-b from-[#0000001e] to-[#000000]">
+        <div
+          className={`flex rounded-md flex-col-reverse gap-2 col-start-1 col-end-3 row-start-1 row-end-3 p-4 ${gradientColorScheme}`}
+        >
           <div className="flex flex-col">
             <span className="text-primary drop-shadow-md font-bold">
               Bloque
@@ -106,7 +116,12 @@ export const SenatorCard: React.FC<ISenatorCardProps> = ({
         </div>
         <div className="z-50 flex flex-col p-4 gap-4 items-end justify-end col-start-2 col-end-3 row-start-2 row-end-3">
           {SOCIAL_MEDIA.map((social: string[], index: number) => (
-            <a target="_blank" key={index} href={social[1]}>
+            <a
+              className="text-white hover:text-red-500 transition-colors"
+              target="_blank"
+              key={index}
+              href={social[1]}
+            >
               {getIcons(social[0])}
             </a>
           ))}

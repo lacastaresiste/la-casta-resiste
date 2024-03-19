@@ -1,4 +1,4 @@
-import { Button } from '@mui/material';
+import { Button, useTheme } from '@mui/material';
 import { FilterByParty } from '../Filters/ByParty/FilterByParty';
 import { SortByAdvisors } from '../Filters/SortByAdvisors/SortByAdvisors';
 import { useMobileMenu } from '../../context/useMobileMenu';
@@ -24,12 +24,20 @@ export const Menu: React.FC<IMenuProps> = ({
   //   'max-w-[500px] absolute rounded-md p-4 box-border flex flex-col gap-4 justify-center items-center bg-navbar border border-[#555] margin-[0_auto] inset-0';
 
   const { closeMenu } = useMobileMenu();
+  const { palette } = useTheme();
+  const isLight = palette.mode === 'light' ? true : false;
+  const colorScheme = `${isLight ? 'bg-navbar-light' : 'bg-navbar'} p-4 ${isLight ? '' : 'border-b lg:border border-[#555]'}`;
+  const borderColorScheme = `${isLight ? 'border-light-border' : 'border-dark-border'}`;
 
   return (
     <>
       {floating ? (
-        <nav className="absolute flex justify-center items-center inset-0 p-10 z-[999] backdrop:blur-3xl bg-[#0a0505b7]">
-          <div className="flex flex-col min-w-[350px] rounded-md bg-[#151515] p-4 gap-4 border border-[#555]">
+        <nav
+          className={`absolute flex justify-center items-center inset-0 p-10 z-[999] backdrop:blur-3xl ${isLight ? 'bg-[#888888DF]' : 'bg-[#000000DF]'}`}
+        >
+          <div
+            className={`flex flex-col min-w-[350px] rounded-md ${colorScheme} p-4 gap-4 border ${borderColorScheme}`}
+          >
             <FilterByParty
               filters={filters}
               onChange={(filter) => setFilters(filter)}
@@ -42,7 +50,9 @@ export const Menu: React.FC<IMenuProps> = ({
           </div>
         </nav>
       ) : (
-        <nav className="min-w-[230px] rounded-md p-4 max-w-[600px] max-h-full box-border flex flex-col gap-4 items-center bg-navbar border border-[#555]">
+        <nav
+          className={`min-w-[230px] rounded-md p-4 max-w-[600px] max-h-full box-border flex flex-col gap-4 items-center ${colorScheme} border ${borderColorScheme}`}
+        >
           <FilterByParty
             filters={filters}
             onChange={(filter) => setFilters(filter)}

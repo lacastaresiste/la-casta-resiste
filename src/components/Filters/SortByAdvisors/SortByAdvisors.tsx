@@ -1,4 +1,4 @@
-import { ToggleButtonGroup, ToggleButton } from '@mui/material';
+import { ToggleButtonGroup, ToggleButton, Typography } from '@mui/material';
 import { ISortByAdvisorsProps } from './types';
 
 export const SortByAdvisors: React.FC<ISortByAdvisorsProps> = ({
@@ -7,9 +7,9 @@ export const SortByAdvisors: React.FC<ISortByAdvisorsProps> = ({
 }) => {
   return (
     <div className="flex flex-col items-center justify-center gap-4">
-      <p className="text-[0.85em] text-center">
+      <Typography className="text-center">
         Ordenar por cantidad de asesores
-      </p>
+      </Typography>
       <div className="flex flex-col items-center gap-6">
         <ToggleButtonGroup
           value={value}
@@ -19,11 +19,25 @@ export const SortByAdvisors: React.FC<ISortByAdvisorsProps> = ({
             onChange(newValue);
           }}
         >
-          <ToggleButton key={1} value={true}>
-            <span className="text-[12px] lg:text-[0.7em]">Mayor</span>
+          <ToggleButton
+            sx={{
+              fontWeight: 600,
+            }}
+            size="small"
+            key={1}
+            value={true}
+          >
+            Mayor
           </ToggleButton>
-          <ToggleButton key={0} value={false}>
-            <span className="text-[12px] lg:text-[0.7em]">Menor</span>
+          <ToggleButton
+            sx={{
+              fontWeight: 600,
+            }}
+            size="small"
+            key={0}
+            value={false}
+          >
+            Menor
           </ToggleButton>
         </ToggleButtonGroup>
       </div>

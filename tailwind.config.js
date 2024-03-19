@@ -12,9 +12,15 @@ export default {
         "third": 'rgb(25 25 25);',
         "background": '#111',
         "navbar": '#222',
-        "white": '#CCC',
         "title": '#EEE',
-        "card-header": "#222"
+        "card-header": "#222",
+        "dark-border": "#555",
+
+        "background-light": '#d58376',
+        "navbar-light": '#eee0e0',
+        "title-light": '#EEE',
+        "card-header-light": "#eee0e0",
+        "light-border": '#CCC'
       }
     },
   },

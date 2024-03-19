@@ -1,3 +1,4 @@
+import { useTheme } from '@mui/material';
 import { Disclaimer } from '../components/Adverticement/Disclaimer';
 import { Header } from '../components/Header/Header';
 import { Menu } from '../components/Menu/Menu';
@@ -14,8 +15,13 @@ export const Main = () => {
 
   const { menuOpen } = useMobileMenu();
 
+  const { palette } = useTheme();
+  const isLight = palette.mode === 'light' ? true : false;
+
   return (
-    <main className="flex flex-row bg-background max-h-[100vh] overflow-hidden lg:p-4 gap-4">
+    <main
+      className={`flex flex-row ${isLight ? 'bg-background-light' : 'bg-background'} max-h-[100vh] overflow-hidden lg:p-4 gap-4`}
+    >
       {isMobile ? (
         menuOpen ? (
           <Menu
