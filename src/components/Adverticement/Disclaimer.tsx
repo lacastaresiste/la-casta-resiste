@@ -1,5 +1,5 @@
 import ReportIcon from '@mui/icons-material/Report';
-import { Button } from '@mui/material';
+import { Button, Typography, useTheme } from '@mui/material';
 import { useState } from 'react';
 
 const advice_read = localStorage.getItem('advice-read');
@@ -20,15 +20,23 @@ export const Disclaimer = () => {
     return <></>;
   }
 
+  const { palette } = useTheme();
+
+  const isLight = palette.mode === 'light' ? true : false;
+
   return (
     <>
       {close ? null : (
-        <div className="absolute z-[9999] inset-0 flex justify-center items-center bg-[#000000bb]">
-          <div className="bg-[#151515] p-10 flex flex-col gap-8 items-center justify-center max-w-[400px] border rounded-md border-[#555]">
+        <div
+          className={`absolute z-[9999] inset-0 flex justify-center items-center ${isLight ? 'bg-[#888888DF]' : 'bg-[#000000DF]'}`}
+        >
+          <div
+            className={`${isLight ? 'bg-navbar-light' : 'bg-[#151515]'}  p-10 flex flex-col gap-8 items-center justify-center max-w-[400px] border rounded-md border-[#555]`}
+          >
             <ReportIcon className="text-primary" fontSize="large" />
             <div className="flex flex-col items-center">
               <h3 className="text-[1rem] text-center p-2 lg:p-0">
-                <i className="text-white">
+                <i className={isLight ? 'text-black' : 'text-white'}>
                   aviso legal: el contenido en esta web es puramente de índole
                   público proveniente del sitio gubernamental
                 </i>

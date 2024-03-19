@@ -36,11 +36,9 @@ export const Header = () => {
         <img src="/inicio/logo.svg" alt="" />
       </div>
       <div className="flex flex-col justify-center items-center col-start-2 col-end-3 row-start-1 row-end-1 pt-2">
-        <Typography>
-          <h1 className="text-[1em] md:text-lg font-medium text-center">
-            LA CASTA SE RESISTE
-          </h1>
-        </Typography>
+        <h1 className="text-[1em] md:text-lg font-medium text-center">
+          <Typography>LA CASTA SE RESISTE</Typography>
+        </h1>
         <h2 className="text-[0.8em] text-primary">SENADO</h2>
       </div>
       <div className="col-start-3 col-end-4 col row-start-1 row-end-1 pt-2 lg:pt-0">
