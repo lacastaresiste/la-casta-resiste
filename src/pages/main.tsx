@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { Disclaimer } from '../components/Adverticement/Disclaimer';
 import { Header } from '../components/Header/Header';
 import { Menu } from '../components/Menu/Menu';
 import { Senators } from '../components/Senators/Senators';
@@ -47,6 +47,7 @@ export const Main = () => {
           </div>
         </section>
       </div>
+      <Disclaimer />
     </main>
   );
 };

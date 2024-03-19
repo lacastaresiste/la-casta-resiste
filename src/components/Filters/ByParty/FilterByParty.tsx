@@ -1,4 +1,3 @@
-import { useMediaQuery } from 'react-responsive';
 import { capitalizeWords, filterPartys } from '../../../utils/utils';
 import { ToggleButton, ToggleButtonGroup } from '@mui/material';
 import { IFilterByPartyProps } from './types';
@@ -17,9 +16,6 @@ export const FilterByParty: React.FC<IFilterByPartyProps> = ({
     event;
     onChange(newFormats);
   };
-
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 480px)' });
-
   return (
     <div className="flex flex-col justify-center items-center gap-4 mt-4">
       <p className="text-[0.85em]">Filtrar por partidos</p>

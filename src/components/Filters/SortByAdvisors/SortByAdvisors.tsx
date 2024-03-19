@@ -1,13 +1,10 @@
 import { ToggleButtonGroup, ToggleButton } from '@mui/material';
-import { useMediaQuery } from 'react-responsive';
 import { ISortByAdvisorsProps } from './types';
 
 export const SortByAdvisors: React.FC<ISortByAdvisorsProps> = ({
   value,
   onChange,
 }) => {
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 480px)' });
-
   return (
     <div className="flex flex-col items-center justify-center gap-4">
       <p className="text-[0.85em] text-center">
