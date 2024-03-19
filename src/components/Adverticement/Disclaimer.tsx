@@ -1,5 +1,5 @@
 import ReportIcon from '@mui/icons-material/Report';
-import { Button, Typography, useTheme } from '@mui/material';
+import { Button, useTheme } from '@mui/material';
 import { useState } from 'react';
 
 const advice_read = localStorage.getItem('advice-read');
