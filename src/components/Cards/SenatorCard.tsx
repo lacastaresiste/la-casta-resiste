@@ -1,10 +1,13 @@
-import { useMediaQuery } from 'react-responsive';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YoutubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { capitalizeWords } from '../../utils/utils';
-import { Avatar, CardHeader, useTheme } from '@mui/material';
+import { Avatar, CardHeader } from '@mui/material';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { ISenatorCardProps } from './types';
+import { useImage } from '../../hooks/useImage';
+import { useLightMode } from '../../hooks/useLightMode';
 
 const getIcons = (name: string) => {
   if (name === 'Twitter') {
@@ -24,43 +27,21 @@ const getIcons = (name: string) => {
   }
 };
 
-export interface ISenatorCardProps {
-  ID: string;
-  NOMBRE: string;
-  APELLIDO: string;
-  PARTIDO: string;
-  BLOQUE: string;
-  PROVINCIA: string;
-  ASESORES: number;
-  SOCIAL_MEDIA: string[][];
-}
-
-const Images_Loc = {
-  IMG_512: '/inicio/faces_512/',
-  IMG_256: '/inicio/faces_256/',
-  IMG_SMALL: '/inicio/faces-small/',
-};
-
 export const SenatorCard: React.FC<ISenatorCardProps> = ({
-  ID,
-  NOMBRE,
-  APELLIDO,
-  PARTIDO,
-  BLOQUE,
-  PROVINCIA,
-  ASESORES,
-  SOCIAL_MEDIA,
+  id,
+  name,
+  surname,
+  party: PARTIDO,
+  block: BLOQUE,
+  province: PROVINCIA,
+  asesors: ASESORES,
+  social_media: SOCIAL_MEDIA,
 }) => {
-  const isTabletOrMobile = useMediaQuery({ query: '(max-width: 480px)' });
-
-  const { palette } = useTheme();
-  const isLight = palette.mode === 'light' ? true : false;
+  const { big, small } = useImage(id);
+  const isLight = useLightMode();
 
   const borderColorScheme = `${isLight ? 'border-light-border' : 'border-dark-border'}`;
   const gradientColorScheme = `${isLight ? 'bg-gradient-to-b from-[#0000001e] to-[#5050509F]' : 'bg-gradient-to-b from-[#0000001e] to-[#000000]'}`;
-
-  const IMAGE_256 = Images_Loc.IMG_256 + ID + '.webp';
-  const IMAGE_512 = Images_Loc.IMG_512 + ID + '.webp';
 
   return (
     <div
@@ -70,21 +51,21 @@ export const SenatorCard: React.FC<ISenatorCardProps> = ({
         avatar={
           <Avatar
             aria-label="senator avatar"
-            src={Images_Loc.IMG_SMALL + ID + '.gif'}
-            alt={NOMBRE + ' ' + APELLIDO}
+            src={small}
+            alt={name + ' ' + surname}
           ></Avatar>
         }
-        title={<p>{NOMBRE + ' ' + APELLIDO}</p>}
+        title={<p>{name + ' ' + surname}</p>}
         subheader={<p>{PARTIDO}</p>}
         className={`${isLight ? `bg-card-header-light border-b ${borderColorScheme}` : `bg-card-header border-b ${borderColorScheme}`}`}
       />
 
       <div className="grid grid-rows-2 grid-cols-2 h-full rounded-md">
         <div className="row-start-1 row-end-3 col-start-1 col-end-3 rounded-b-2xl overflow-hidden">
-          <img
+          <LazyLoadImage
             className="w-full h-full object-cover"
-            src={isTabletOrMobile ? IMAGE_256 : IMAGE_512}
-            alt={NOMBRE}
+            src={big}
+            alt={name}
           />
         </div>
         <div

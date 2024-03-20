@@ -25,7 +25,7 @@ export const SortByAdvisors: React.FC<ISortByAdvisorsProps> = ({
             }}
             size="small"
             key={1}
-            value={true}
+            value="ascending"
           >
             Mayor
           </ToggleButton>
@@ -35,7 +35,7 @@ export const SortByAdvisors: React.FC<ISortByAdvisorsProps> = ({
             }}
             size="small"
             key={0}
-            value={false}
+            value="descending"
           >
             Menor
           </ToggleButton>

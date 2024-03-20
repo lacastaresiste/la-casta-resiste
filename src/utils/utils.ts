@@ -1,4 +1,3 @@
-import { Member, Senado } from '../components/types';
 
 export const capitalizeWords = (sentence: string) => {
   return sentence
@@ -9,11 +8,4 @@ export const capitalizeWords = (sentence: string) => {
     .join(' ');
 };
 
-export function filterPartys(obj: Senado) {
-  const array = obj.senators.map((party: Member) => {
-    return party.PARTIDO;
-  });
-  return array.filter(
-    (value: string, index: number) => array.indexOf(value) === index,
-  );
-}
+

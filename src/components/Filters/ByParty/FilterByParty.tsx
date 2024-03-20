@@ -1,14 +1,16 @@
-import { capitalizeWords, filterPartys } from '../../../utils/utils';
+import { capitalizeWords } from '../../../utils/utils';
 import { ToggleButton, ToggleButtonGroup, Typography } from '@mui/material';
 import { IFilterByPartyProps } from './types';
-import senado from '../../../assets/senado.json';
-
-const partys: string[] = filterPartys(senado);
+import { useSenators } from '../../../hooks/useSenators';
+import { useGeneratePartiesFilters } from '../../../hooks/useGeneratePartiesFilters';
 
 export const FilterByParty: React.FC<IFilterByPartyProps> = ({
   filters,
   onChange,
 }) => {
+  const senators = useSenators();
+  const partiesFilter = useGeneratePartiesFilters(senators);
+
   const handleChange = (
     event: React.MouseEvent<HTMLElement, MouseEvent>,
     newFormats: string[],
@@ -28,7 +30,7 @@ export const FilterByParty: React.FC<IFilterByPartyProps> = ({
               orientation={'vertical'}
               aria-label="senators filters"
             >
-              {partys.map((party: string, index: number) => (
+              {partiesFilter.map((party: string, index: number) => (
                 <ToggleButton
                   size="small"
                   key={index}

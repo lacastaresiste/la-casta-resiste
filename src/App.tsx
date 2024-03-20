@@ -1,11 +1,11 @@
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
-import { FiltersProvider } from './context/BasicThemeContext';
+import { FiltersProvider } from './context/FilterSenatorsContext';
 import { MediaQueryProvider } from './context/MediaQueryContext';
 import { useMediaQuery } from 'react-responsive';
 import { Main } from './pages/main';
 import { useMemo } from 'react';
 import './App.css';
-import { MobileMenuProvider } from './context/MobileMenuContext';
+import { MobileMenuProvider } from './context/FilterMenuContext';
 
 window.onbeforeunload = function () {
   window.scrollTo(0, 0);

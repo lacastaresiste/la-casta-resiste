@@ -1,6 +1,3 @@
-// import ReportIcon from '@mui/icons-material/Report';
-// import FilterListIcon from '@mui/icons-material/FilterList';
-// import { Menu } from '@mui/material';
 import {
   Button,
   ButtonProps,
@@ -10,17 +7,16 @@ import {
 } from '@mui/material';
 
 import FilterListIcon from '@mui/icons-material/FilterList';
-import { useMediaQueries } from '../../context/useMediaQueries';
-import { useMobileMenu } from '../../context/useMobileMenu';
+import { useFilterMenuContext } from '../../context/useFilterMenuContext';
+import { useMediaQueriesContext } from '../../context/useMediaQueriesContext';
 
 const FiltersButton = styled(Button)<ButtonProps>(({ theme }) => ({
   color: theme.palette.getContrastText('#000'),
 }));
 
 export const Header = () => {
-  const { isMobile } = useMediaQueries();
-
-  const { setMenuOpen } = useMobileMenu();
+  const { setMenuOpen } = useFilterMenuContext();
+  const { isMobile } = useMediaQueriesContext();
 
   const { palette } = useTheme();
   const isLight = palette.mode === 'light' ? true : false;
@@ -42,15 +38,15 @@ export const Header = () => {
         <h2 className="text-[0.8em] text-primary">SENADO</h2>
       </div>
       <div className="col-start-3 col-end-4 col row-start-1 row-end-1 pt-2 lg:pt-0">
-        {isMobile ? (
-          <FiltersButton
-            onClick={() => {
-              setMenuOpen(true);
-            }}
-          >
-            <FilterListIcon className={isLight ? 'text-black' : 'text-white'} />
-          </FiltersButton>
-        ) : null}
+        <FiltersButton
+          onClick={() => {
+            setMenuOpen(true);
+          }}
+          className="flex flex-row gap-2"
+        >
+          {isMobile ? null : <span>Filtros</span>}
+          <FilterListIcon className={isLight ? 'text-black' : 'text-white'} />
+        </FiltersButton>
       </div>
     </header>
   );

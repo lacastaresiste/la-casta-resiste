@@ -1,39 +1,40 @@
-import Senate from '../../assets/senado.json';
+import { useFilterSenatorsByParties } from '../../hooks/useFilterSenatorsByParties';
+import { useOrderSenatorsByAdvisors } from '../../hooks/useOrderSenatorsByAdvisors';
+import { useSenators } from '../../hooks/useSenators';
+import { AdvisorOrderType } from '../../utils/filterProps';
 import { SenatorCard } from '../Cards/SenatorCard';
 
-interface ISenatorsProps {
+interface ISenatorProps {
   filters: string[];
-  sortByAdvisors: boolean;
+  sortByAdvisors: AdvisorOrderType;
 }
 
-export const Senators: React.FC<ISenatorsProps> = ({
+export const Senators: React.FC<ISenatorProps> = ({
   filters,
   sortByAdvisors,
 }) => {
-  const SortedSenatorsByAdvisors = sortByAdvisors
-    ? Senate.senators.sort((a, b) => b.ASESORES - a.ASESORES)
-    : Senate.senators.sort((a, b) => a.ASESORES - b.ASESORES);
+  const senators = useSenators();
 
-  const filteredSenators = SortedSenatorsByAdvisors.filter((senator) =>
-    filters.some((filter) => senator.PARTIDO.includes(filter)),
+  const filteredSenators = useFilterSenatorsByParties(senators, filters);
+
+  const orderedSenators = useOrderSenatorsByAdvisors(
+    filteredSenators,
+    sortByAdvisors,
   );
-
-  const Senators =
-    filteredSenators.length > 0 ? filteredSenators : Senate.senators;
 
   return (
     <>
-      {Senators.map((senator, index) => (
+      {orderedSenators.map((senator, index) => (
         <SenatorCard
           key={index}
-          ID={senator.ID}
-          NOMBRE={senator.NOMBRE}
-          APELLIDO={senator.APELLIDO}
-          PARTIDO={senator.PARTIDO}
-          BLOQUE={senator.BLOQUE}
-          PROVINCIA={senator.PROVINCIA}
-          ASESORES={senator.ASESORES}
-          SOCIAL_MEDIA={senator.SOCIAL_MEDIA}
+          id={senator.id}
+          name={senator.name}
+          surname={senator.surname}
+          party={senator.party}
+          block={senator.block}
+          province={senator.province}
+          asesors={senator.asesors}
+          social_media={senator.social_media}
         />
       ))}
     </>

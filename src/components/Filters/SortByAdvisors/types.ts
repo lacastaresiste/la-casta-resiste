@@ -1,4 +1,6 @@
+import { AdvisorOrderType } from "../../../utils/filterProps";
+
 export interface ISortByAdvisorsProps {
-	value: boolean;
-	onChange: (value: boolean) => void;
+	value: AdvisorOrderType;
+	onChange: (value: AdvisorOrderType) => void;
 }

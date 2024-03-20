@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { AdvisorOrderType } from "../utils/filterProps";
 
 export interface FilterProviderProps {
     children: ReactNode;
@@ -6,9 +7,9 @@ export interface FilterProviderProps {
 
 export interface FiltersContextType {
     filters: string[];
-    setFilters: (newFormats: string[]) => void;
-    sortByAdvisors: boolean;
-    setSortByAdvisors: (value: boolean) => void;
+    setFilters: (filters: string[]) => void;
+    orderByAdvisors: AdvisorOrderType;
+    setOrderByAdvisors: (order: AdvisorOrderType) => void;
 }
 
 export interface MediaQueryProviderProps {
@@ -19,11 +20,11 @@ export interface MediaQueryContextType {
     isMobile: boolean;
 }
 
-export interface MobileMenuProviderProps {
+export interface FilterMenuProviderProps {
     children: ReactNode;
 }
 
-export interface MobileMenuContextType {
+export interface FilterMenuContextType {
     menuOpen: boolean;
     setMenuOpen: (menuOpen: boolean) => void;
     closeMenu: () => void
