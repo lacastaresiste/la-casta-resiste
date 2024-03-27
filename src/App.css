@@ -1,25 +1,25 @@
 @font-face {
-    font-family: "Lato";
+    font-family: "Poppins Regular";
     font-display: swap;
     src:
-        local("Lato"),
-        url("/fonts/Lato-Regular.ttf"),
+        local("Poppins Regular"),
+        url("/fonts/Poppins-Regular.ttf"),
+}
+
+@font-face {
+    font-family: "Poppins Bold";
+    font-display: swap;
+    src:
+        local("Poppins Bold"),
+        url("/fonts/Poppins-Bold.ttf"),
 }
 
 html,
 body {
-    font-family: 'Lato';
-    background-color: #111;
+    color-scheme: dark light;
+    background-color: #000;
 }
 
-.thin-scrollbar {
+main {
     scrollbar-width: thin;
-}
-
-:root {
-    color-scheme: dark;
-}
-
-.hide-scrollbar::-webkit-scrollbar {
-    display: none;
 }

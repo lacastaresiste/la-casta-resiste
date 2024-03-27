@@ -1,8 +1,11 @@
 import { capitalizeWords } from '../../../utils/utils';
-import { ToggleButton, ToggleButtonGroup, Typography } from '@mui/material';
 import { IFilterByPartyProps } from './types';
 import { useSenators } from '../../../hooks/useSenators';
 import { useGeneratePartiesFilters } from '../../../hooks/useGeneratePartiesFilters';
+import * as ToggleGroup from '@radix-ui/react-toggle-group';
+
+const toggleGroupItemClasses =
+  'hover:bg-slate4 color-slate11 data-[state=on]:bg-slate5 data-[state=on]:text-slate12 box-border p-2 flex items-center justify-center bg-slate3 text-base focus:z-10 focus:shadow-black focus:outline-none';
 
 export const FilterByParty: React.FC<IFilterByPartyProps> = ({
   filters,
@@ -11,42 +14,25 @@ export const FilterByParty: React.FC<IFilterByPartyProps> = ({
   const senators = useSenators();
   const partiesFilter = useGeneratePartiesFilters(senators);
 
-  const handleChange = (
-    event: React.MouseEvent<HTMLElement, MouseEvent>,
-    newFormats: string[],
-  ) => {
-    event;
-    onChange(newFormats);
-  };
   return (
-    <div className="flex flex-col justify-center items-center gap-4 mt-4">
-      <Typography>Filtrar por partidos</Typography>
-      <div className="flex flex-col items-center">
-        <div className="flex flex-col">
-          <div className="flex flex-col items-center gap-6">
-            <ToggleButtonGroup
-              value={filters}
-              onChange={handleChange}
-              orientation={'vertical'}
-              aria-label="senators filters"
-            >
-              {partiesFilter.map((party: string, index: number) => (
-                <ToggleButton
-                  size="small"
-                  key={index}
-                  value={party}
-                  aria-label={party}
-                  sx={{
-                    fontWeight: 600,
-                  }}
-                >
-                  {capitalizeWords(party)}
-                </ToggleButton>
-              ))}
-            </ToggleButtonGroup>
-          </div>
-        </div>
-      </div>
-    </div>
+    <ToggleGroup.Root
+      className="ToggleGroup flex flex-col bg-slate6 rounded h-fit border border-slate6"
+      type="multiple"
+      value={filters}
+      onValueChange={(value) => {
+        if (value) onChange(value);
+      }}
+      aria-label="cameras switcher"
+    >
+      {partiesFilter.map((party) => (
+        <ToggleGroup.Item
+          className={toggleGroupItemClasses}
+          value={party}
+          aria-label="senadores"
+        >
+          {capitalizeWords(party)}
+        </ToggleGroup.Item>
+      ))}
+    </ToggleGroup.Root>
   );
 };

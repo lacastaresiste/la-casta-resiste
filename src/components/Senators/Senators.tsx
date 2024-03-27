@@ -2,7 +2,7 @@ import { useFilterSenatorsByParties } from '../../hooks/useFilterSenatorsByParti
 import { useOrderSenatorsByAdvisors } from '../../hooks/useOrderSenatorsByAdvisors';
 import { useSenators } from '../../hooks/useSenators';
 import { AdvisorOrderType } from '../../utils/filterProps';
-import { SenatorCard } from '../Cards/SenatorCard';
+import { SenatorCard } from '../Card';
 
 interface ISenatorProps {
   filters: string[];
